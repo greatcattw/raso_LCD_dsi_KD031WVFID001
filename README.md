@@ -9,6 +9,8 @@ linux 5.10.103
 
 ![pic](https://github.com/greatcattw/rpi_dsi_driver_KD031WVFID001/blob/main/pic/demo1.jpg)
 
+![circuit](https://github.com/greatcattw/rpi_dsi_driver_KD031WVFID001/blob/main/circuit/kd031_circuit.png)
+
 # Usage:
 sudo cp kd031dsi.ko /lib/modules/5.10.103-v7+/
 sudo depmod
