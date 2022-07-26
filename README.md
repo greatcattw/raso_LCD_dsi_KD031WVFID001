@@ -7,7 +7,7 @@ rasp 3B
 linux 5.10.103
 
 
-#Usage:
+# Usage:
 sudo cp kd031dsi.ko /lib/modules/5.10.103-v7+/
 sudo depmod
 
@@ -24,7 +24,7 @@ ignore_lcd=1
 dtoverlay=vc4-kms-v3d,noaudio
 dtoverlay=gcatlcd0a
 
-#Check
+# Check
 fbset                                                         
                                                                                 
 $mode "480x800"                                                                  
@@ -38,7 +38,7 @@ $lsmod grep kd031
 kd031dsi               16384  0                                                 
 drm                   520192  5 vc4,kd031dsi,drm_kms_helpe
 
-#rotate screen
+# rotate screen
 
 Preference / Screen Configuration / 
 Configure / Screens / DSI-1 / Orientation / left
