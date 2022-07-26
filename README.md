@@ -1,5 +1,6 @@
-LCD
+# LCD
 www.startek-lcd.com/
+
 KD031WVFID001
 
 rasp 3B
@@ -40,6 +41,8 @@ drm                   520192  5 vc4,kd031dsi,drm_kms_helpe
 
 # rotate screen
 
-Preference / Screen Configuration / 
+Preference / Screen Configuration 
+
 Configure / Screens / DSI-1 / Orientation / left
+
 Configure / Apply
