@@ -46,7 +46,7 @@ $mode "480x800"
     rgba 5/11,6/5,5/0,0/0                                                       
 endmode
 
-$lsmod grep kd031                                            
+$lsmod | grep kd031                                            
 kd031dsi               16384  0                                                 
 drm                   520192  5 vc4,kd031dsi,drm_kms_helpe
 
