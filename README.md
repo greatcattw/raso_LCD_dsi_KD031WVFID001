@@ -20,13 +20,21 @@ sudo cp gcatlcd0a.dtbo /boot/overlay/
 modify /boot/config.txt
 
 #for uart console
+
 enable_uart=1
+
 dtoverlay=pi3-disable-bt
 
+
+
 #for kd031dsi
+
 ignore_lcd=1
+
 dtoverlay=vc4-kms-v3d,noaudio
+
 dtoverlay=gcatlcd0a
+
 
 # Check
 fbset                                                         
