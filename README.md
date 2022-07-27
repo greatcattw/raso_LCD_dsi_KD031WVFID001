@@ -42,7 +42,7 @@ sudo cp gcat_kd031ts.dtbo /boot/overlay/
 
 
 
-modify /boot/config.txt
+## modify /boot/config.txt
 
 #for uart console
 
