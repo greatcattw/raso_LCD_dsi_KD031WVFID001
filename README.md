@@ -11,6 +11,18 @@ linux 5.10.103
 
 ![circuit](https://github.com/greatcattw/rpi_dsi_driver_KD031WVFID001/blob/main/circuit/kd031_circuit.png)
 
+
+pin of touch screen
+1 GND
+2 VDDIO - 3v3
+3 VDD -3v3
+4 SCL - rasp#5
+5 SDA - rasp#3
+6 INT - rasp#13 / GPIO27
+7 RST - rasp#7 / GPIO4
+8 GND
+
+
 # Usage:
 sudo cp kd031dsi.ko /lib/modules/5.10.103-v7+/
 sudo depmod
@@ -24,6 +36,9 @@ modify /boot/config.txt
 enable_uart=1
 
 dtoverlay=pi3-disable-bt
+
+dtoverlay=gcat_kd031ts
+
 
 
 
