@@ -33,9 +33,14 @@ linux 5.10.103
 
 # Usage:
 sudo cp kd031dsi.ko /lib/modules/5.10.103-v7+/
+
 sudo depmod
 
 sudo cp gcatlcd0a.dtbo /boot/overlay/
+
+sudo cp gcat_kd031ts.dtbo /boot/overlay/
+
+
 
 modify /boot/config.txt
 
